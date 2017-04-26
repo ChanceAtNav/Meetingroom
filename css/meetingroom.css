@@ -1,0 +1,35 @@
+.c-time {
+  color: #999;
+  font-size: 1em;
+  flex-basis: 100%;
+  flex-direction: column;
+  text-align: center !important; 
+}
+
+.c-meeting-times-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border: 1px solid #000;
+}
+
+.c-meeting-room-page {
+  display: flex;
+}
+
+.c-meeting-times-column.is-active .button {
+  color: #000;
+}
+
+.c-meeting-times-column.is-active .c-time {
+  color: #000;
+}
+
+.c-time:hover {
+  color: #999;
+  font-size: 1em;
+  font-weight: bold;
+  flex-basis: 100%;
+  flex-direction: column;
+  text-align: center !important; 
+}
